@@ -1,0 +1,5 @@
+﻿#UPDATE profile set is_education = 1 where weiboid in (select weiboid from detailprofile);
+#delete from detailprofile where description = 'δ֪' and address = 'δ֪' and birthday = 'δ֪' and fashion = 'δ֪';
+#delete from detailprofile where description is null;
+#update profile set is_education = -1;
+select * from profile where weiboid = '1748859935';
